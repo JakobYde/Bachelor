@@ -251,7 +251,7 @@ writeCsvHead(['learning_rate', 'layer1', 'layer2', 'layer3', 'layer4', 'layer5',
 inner_size = [{} for i in range(size_survivors)]
 original_parameters = [np.copy(inner_size) for i in range(size_original)]
 
-with open('bestmodels.csv', mode='r') as csv_file:
+with open('inc_bestmodels.csv', mode='r') as csv_file:
     models = csv.reader(csv_file)
     for i, row in enumerate(models):
         params = {}

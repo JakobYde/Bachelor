@@ -119,7 +119,7 @@ def getStats(data, to_measure = []):
     return result
 
 
-files = ['filtered.csv']
+files = ['inc_filtered.csv']
 stats = []
 
 for i, f in enumerate(files):

@@ -93,6 +93,6 @@ def filterFile(filename):
     return categories, result
 
 
-categories, result = filterFile('resultsfinetuneNN.csv')
+categories, result = filterFile('inc_exampledata.csv')
 to_print = [categories] + result
 saveFile(to_print, "filtered.csv", ",")
