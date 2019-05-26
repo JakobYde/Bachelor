@@ -1,4 +1,4 @@
-%filtered = readtable('filtered.csv')
+filtered = readtable('filtered.csv')
 
 n = table2array(filtered(:,12));
 nn = table2array(filtered(:,2));
