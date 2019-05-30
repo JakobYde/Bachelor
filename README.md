@@ -22,7 +22,7 @@ This file is used to filter the data set, such that only the full data points re
 
 - ### FileConversion
   - ##### npy_to_csv.py
-    - This file convertes the data format from .npy to .csv.
+  This file convertes the data format from .npy to .csv.
 
 ### NNTuning
   #### BroadSearch
