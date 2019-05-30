@@ -12,13 +12,29 @@ This file is used to create the augmented data set, do linear multivariate regre
 This file is used to filter the data set, such that only the full data points remain, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
 
 ### RegressionDistTest
-##### testtrainvarmean.m
+  ##### testtrainvarmean.m
 
 
 ## Python
-### CSVReader
-##### CSVReader.py
-##### inc_exampledata.csv
+- ### CSVReader
+  - ##### CSVReader.py
+  - ##### inc_exampledata.csv
+
+- ### FileConversion
+  - ##### npy_to_csv.py
+    This file convertes the data format from .npy to .csv.
+
+- ### NNTuning
+  - #### BroadSearch
+    - ##### NNBroadSearch.py
+      Description
+  - #### FineTuningTop10
+    - ##### NNfinetuneTop10.py
+      Description
+  - #### DropoutTest
+  - #### LearningRateTest
+  - #### WeightInitTest
+  - #### OptimizerTest
 
 ### PlotLy
 ##### PlotLy.py
@@ -28,6 +44,3 @@ This file is used to filter the data set, such that only the full data points re
 ##### RNNTuning.py
 ##### inc_bestmodels.csv
 
-### FileConversion
-##### npy_to_csv.py
-This file convertes the data format from .npy to .csv.
