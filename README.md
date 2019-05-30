@@ -16,9 +16,9 @@ This file is used to filter the data set, such that only the full data points re
 
 
 ## Python
-  ### CSVReader
-    ##### CSVReader.py
-    ##### inc_exampledata.csv
+- ### CSVReader
+  - ##### CSVReader.py
+  - ##### inc_exampledata.csv
 
 ### FileConversion
   ##### npy_to_csv.py
