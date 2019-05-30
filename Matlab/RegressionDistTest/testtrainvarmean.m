@@ -1,16 +1,15 @@
 a1 = readtable('CRP_weighted_y_train.csv')
 a2 = readtable('CRP_weighted_y_test.csv')
-das_wgt = [a1; a2]
+das_wgt = table2array([a1; a2])
 
 a1 = readtable('CRP_weighted_x_train.csv')
 a2 = readtable('CRP_weighted_x_test.csv')
-crp_wgt = [a1(:,11); a2(:,11)]
+crp_wgt = table2array([a1(:,11); a2(:,11)])
 
 a1 = readtable('full_x_train.csv')
 a2 = readtable('full_x_test.csv')
-crp_raw = [a1(:,11); a2(:,11)]
-das_raw = [a1(:,12); a2(:,12)]
-
+crp_raw = table2array([a1(:,11); a2(:,11)])
+das_raw = table2array([a1(:,12); a2(:,12)])
 
 mean_crp_raw = mean(crp_raw);
 mean_das_raw = mean(das_raw);
