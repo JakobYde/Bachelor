@@ -2,17 +2,17 @@
 Repository for program files for the project 'title'.
 
 ## Matlab
-### NQQPlot
-##### drawHistograms.m
+- ### NQQPlot
+  - ##### drawHistograms.m
 
-### Regression
-##### Regression_augmented.m
-This file is used to create the augmented data set, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
-##### Regression_full.m
-This file is used to filter the data set, such that only the full data points remain, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
+- ### Regression
+  - ##### Regression_augmented.m
+    This file is used to create the augmented data set, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
+  - ##### Regression_full.m
+    This file is used to filter the data set, such that only the full data points remain, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
 
-### RegressionDistTest
-  ##### testtrainvarmean.m
+- ### RegressionDistTest
+  - ##### testtrainvarmean.m
 
 
 ## Python
@@ -31,16 +31,26 @@ This file is used to filter the data set, such that only the full data points re
   - #### FineTuningTop10
     - ##### NNfinetuneTop10.py
       Description
+    - ##### inc_bestmodels.csv
+      Description
   - #### DropoutTest
+    - ##### SomeFile.py
   - #### LearningRateTest
+    - ##### SomeFile.py
   - #### WeightInitTest
+    - ##### SomeFile.py
   - #### OptimizerTest
+    - ##### SomeFile.py
 
-### PlotLy
-##### PlotLy.py
-##### inc_filtered.csv
+- ### PlotLy
+  - ##### PlotLy.py
+    Description
+  - ##### inc_filtered.csv
+    Description
 
-### RNNTuning
-##### RNNTuning.py
-##### inc_bestmodels.csv
+- ### RNNTuning
+  - ##### RNNTuning.py
+    Description
+  - ##### inc_bestmodels.csv
+    Description
 
