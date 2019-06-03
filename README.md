@@ -1,9 +1,12 @@
 # jayde16_olvea16_Bachelor2019
-Repository for program files for the project 'title'.
+Repository for program files for the project 'Prediction of the DAS28 score based on EULAR-OMERACT scores using neural networks' written summer 2019 by Jakob Yde-Madsen and Oliver Vea.
+
+Folder structure:
 
 ## Matlab
 - ### NQQPlot
   - ##### drawHistograms.m
+    This file draws qqplots and a scatter plot comparing the data in filtered.csv to a normal distribution.
 
 - ### Regression
   - ##### Regression_augmented.m
@@ -13,6 +16,7 @@ Repository for program files for the project 'title'.
 
 - ### RegressionDistTest
   - ##### testtrainvarmean.m
+    This file is used to analyze the DAS28 and CRP values of the dataset.
 
 
 ## Python
@@ -44,13 +48,34 @@ Repository for program files for the project 'title'.
 
 - ### PlotLy
   - ##### PlotLy.py
-    Description
+    This file allows for plotting parallel coordinates, scatterplots and 2d histogram plots.
   - ##### inc_filtered.csv
-    Description
+    An example of an input file for the plotting program.
 
 - ### RNNTuning
   - ##### RNNTuning.py
-    Description
+    This model is used as the initial tuning of the LSTM-based model.
   - ##### inc_bestmodels.csv
-    Description
+    This file contains the best model for the rough search.
+    
+- ### LSTM Tuning
+  - ##### LSTM_Tuning.py
+    This model is used for the final tuning of the LSTM-based model.
+    
+- ### DataToDict
+  - ##### npy_to_csv.py
+    This file convertes the data format from .csv to .npy, storing data in a dict in between.
+    
+- ### ModelTest
+  - ##### RNNTuning.py
+    This script tests the performance of the models in the models folder on the old test set.
+  - ##### models
+    This folder contains the models to be tested.
+    
+- ### TestModelNewData
+  - ##### TestModelNewData.py
+    This script tests the performance of the models in the models folder on the new test set.
+  - ##### models
+    This folder contains the models to be tested.
+    
 
