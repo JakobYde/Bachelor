@@ -78,8 +78,14 @@ Folder structure:
     This file convertes the data format from .csv to .npy, storing data in a dict in between.
     
 - ### ModelTest
-  - ##### RNNTuning.py
+  - ##### ModelTest.py
     This script tests the performance of the models in the models folder on the old test set.
+  - ##### models
+    This folder contains the models to be tested.
+   
+- ### TestModelNewData
+  - ##### TestModelNewData.py
+    This script tests the performance of the models in the models folder on the new test set.
   - ##### models
     This folder contains the models to be tested.
     
