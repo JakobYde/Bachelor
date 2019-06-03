@@ -4,6 +4,17 @@ Repository for program files for the project 'Prediction of the DAS28 score base
 Folder structure:
 
 ## Matlab
+
+- ### AdditionalDataRegression
+  - ##### newdata_augmented.m
+    This file is used to create the augmented data set, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
+  - ##### newdata_full.m
+    This file is used to filter the data set, such that only the full data points remain, do linear multivariate regression using mvregress and lsqnonneg and test the regression on the test set.
+
+- ### AverageBaseline
+  - ##### DAS28random.m
+    This predicts the DAS28 scores in both test sets using the average from the training set, it also prints the MAE and MSE.
+
 - ### NQQPlot
   - ##### drawHistograms.m
     This file draws qqplots and a scatter plot comparing the data in filtered.csv to a normal distribution.
