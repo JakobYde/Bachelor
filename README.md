@@ -1,5 +1,5 @@
 # jayde16_olvea16_Bachelor2019
-Repository for program files for the project 'Prediction of the DAS28 score based on EULAR-OMERACT scores using neural networks' written summer 2019 by Jakob Yde-Madsen and Oliver Vea.
+Repository for program files for the project 'Prediction of the DAS28 score based on EULAR-OMERACT scores using neural networks' written spring 2019 by Jakob Yde-Madsen and Oliver Vea.
 
 Folder structure:
 
