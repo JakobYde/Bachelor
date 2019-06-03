@@ -42,20 +42,34 @@ Folder structure:
 - ### NNTuning
   - #### BroadSearch
     - ##### NNBroadSearch.py
-      Description
+      This file is used for the first NN search.
+      
+  - #### CreateFinalModels
+    - ##### CreateFinalModels.py
+      This file is used to create the final models used to predict the DAS28 scores.   
+      
+  - #### FinalTest
+    - ##### FinalTest.py
+      This file is used to test the final model using different initializations.
+    - ##### ModelTest.py
+      This file is used to predict the models' performance on the first test set.
+    - ##### TestModelNewData.py
+      This file is used to predict the models' performance on the second test set.
+      
   - #### FineTuningTop10
     - ##### NNfinetuneTop10.py
-      Description
+      This file is used for the second NN test.
     - ##### inc_bestmodels.csv
-      Description
-  - #### DropoutTest
-    - ##### SomeFile.py
+      Best models from the first test, used to run the fine-tuning test.
   - #### LearningRateTest
-    - ##### SomeFile.py
+    - ##### Learning_rate.py
+      This is used for the learning_rate test.
+      
   - #### WeightInitTest
-    - ##### SomeFile.py
-  - #### OptimizerTest
-    - ##### SomeFile.py
+    - ##### Different_seeds.py
+      This is used to test the same model using different seeds.
+    - ##### sameseed.py
+      This is used to test the same model using the same seed.
 
 - ### PlotLy
   - ##### PlotLy.py
@@ -71,7 +85,7 @@ Folder structure:
     
 - ### LSTM Tuning
   - ##### LSTM_Tuning.py
-    This model is used for the final tuning of the LSTM-based model.
+    This file is used for the final tuning of the LSTM-based model.
     
 - ### DataToDict
   - ##### npy_to_csv.py
@@ -96,7 +110,5 @@ Folder structure:
     File describing the Session class storing information about each scanning session.
   - ##### ImageInformation.py
     File describing the imageinformation class storing information about the EULAR-OMERACT scores.
-    
-- ###
     
 
