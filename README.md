@@ -16,6 +16,7 @@ Folder structure:
 
 - ### RegressionDistTest
   - ##### testtrainvarmean.m
+    This file is used to analyze the DAS28 and CRP values of the dataset.
 
 
 ## Python
