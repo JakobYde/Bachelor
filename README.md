@@ -83,18 +83,14 @@ Folder structure:
   - ##### models
     This folder contains the models to be tested.
     
-- ### ModelTest
-  - ##### RNNTuning.py
-    This script tests the performance of the models in the models folder on the old test set.
-  - ##### models
-    This folder contains the models to be tested.
-    
-- ### ModelTest
+- ### DataMapping
   - ##### DataMapping.py
     Script mapping the EULAR-OMERACT scores to the CRP and DAS28 scores.
   - ##### Session.py
     File describing the Session class storing information about each scanning session.
   - ##### ImageInformation.py
     File describing the imageinformation class storing information about the EULAR-OMERACT scores.
+    
+- ###
     
 
